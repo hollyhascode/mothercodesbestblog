@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hollyhascode/mothercodesbestblog/precache-manifest.1dfd0e434ab8ad91a13e6774c8585f1b.js"
+  "/mothercodesbestblog/precache-manifest.032dbaf9639a5cb108fedc0f960cb60a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hollyhascode/mothercodesbestblog/index.html", {
+workbox.routing.registerNavigationRoute("/mothercodesbestblog/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
